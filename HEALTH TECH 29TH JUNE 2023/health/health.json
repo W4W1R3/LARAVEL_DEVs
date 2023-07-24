@@ -1,10 +1,6 @@
 {
   "type": "service_account",
-  "project_id": "pycharm-dbfb4",
-  "private_key_id": "24fe453cc5e22e725b9e54273c9a9098d2fbd227",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQ9TOcTnkJts+g\nwqllKNQXXW09FHXAqV9U3jbWzPh8oclxd2J7RfIg4CMzeMelYQegzTC7eW0511h6\n4lkSygKNuWbe+VoblKozxyPIrZihkF2EtDYwjx2tvSdzo0IbojltC/4/2hpiMWhX\ntiMjflUfLrMBUyFaMiqfHWOVSgMEjmUnRBHoKtnDoErSEAhywPImIhj/Bu10RBJx\n1gPqwhKs7pk+uUTOfFb83cSKYR53vNtcIfbF7+mJsAnaHv8hkneHOA5sseXntIMj\nSVyQIs8qF3g3laj8O4d/4AQyABVWlT+3fFObpdEbVK5LyH6X7Ye8UHkQYlk/wDd0\nUZ7VAkoJAgMBAAECggEAMrA0eZeAnYZi5e6qrF8j2dogQGeY6+g6N6pi96bHpWYS\nqWtqMJimVGrCpz8GgRvhP5Te3C9nu1b9f+ut61SlG2+M4Ixw2w1sXzyQteLEinas\ndN9JYOyqqKVgr1i8Vds7nnQBFEiqS0UMeHB2pCrGZ9bKdgkOJ2TReYEl0cZfJoib\nE3Fl5WtkoNVtrSQfEHx6LhNR3SKihbgkiY7rV6HeTBgN1/lJA2ChqBSYqQf+hKmD\nfWrpjz3zzHTIgmxnIXYGg2OxfoaeSX9N39jrrYcFMgd7fLdkb1p4+60xDu7LYbjx\nUDFIDRNldzEDUWnuXYUT4XiMnwOs1Rvr1GSrB9IvbQKBgQDoBrDP6wtwcn78s15f\n+8buiPHq8cLXN8TSCqT2fSDswVSOLLnTZhexVd2UAgJcnS26apWpP10gUaw6Hqz8\nQKk1qEwNRiUva6EagnJe9JcLHEZFKkBgOb6aWJNQtReULqrHRhOLdhOL42/GarhX\npvaXidIHP0U+waVwpSQCafQwlQKBgQDmjFUQGMp3wOhTKbtUHbGBCvEMpq2qxJJx\nLfmC132aIrdhNVVlgU9g7P3yiNGLyBzaGZPSwS8KODwn9OsFCuWgY19/FXiArtjI\nu2WU3PDR8Bq9uyyMqm6GY/HCnE6m+zuwXsjmclnTM0XhoN1mOPMVTjyAb/CgLaqe\n7vURHsKSpQKBgQCrnddF0lpBr85RZvJVGEtJv6z/1BYDTdKccRcW4fJqa4z5JAfG\nXusDVblwchQBIJjkG1XbO2zMLNywmGPmqIT/lR27a7ixXHBqxTWHGm5l32HyYo//\nHHbofr9noKpyBhp3DlQCgTFv9KeGIQV8f5hA+cWJarjy9BREP0FlL61YCQKBgA8c\n09aiSWNgOdp5udXhvGkBFpwFsQyophDVOq3hAlLAQ9UTce2ddF6eKmdjoJjRHVMO\nqin+j97ToN3dqCpEdJj26qOh/KwyyfMelaIUeZTJcHdPdbQi1+vnUUm4hU9c2KTP\nEcxJYqn9im8n5Ft3EDgtULn6nINjevPAJkBhC9AhAoGAD2GK/Bjw5FbJZfz1qLgp\nYE2EU0qemZsH4rGWcJOz7RC2LVao8GM7CYyvh4xWmZx9z1Ahxd+Nw0KO6ISk80ts\nHiOuxgRREbEeknMoT42KG6nACjtEpMVG6Eoj0MTArsRceEV5PTmvSLz2IYDx4FWK\nxF4NyzNWfySO2ES83DgE87k=\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-dgwjp@pycharm-dbfb4.iam.gserviceaccount.com",
-  "client_id": "117527162090359946368",
+
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
