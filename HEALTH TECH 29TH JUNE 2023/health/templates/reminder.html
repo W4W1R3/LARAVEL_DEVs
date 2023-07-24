@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reminders</title>
+  <link rel="stylesheet" href="/static/reminder.css">
+
+      <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+                              url('/static/reminder.png');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+
+</head>
+<body>
+  <h1>MEDICAL REMINDERS</h1>
+  <form>
+    <label for="drug-name">Drug Name:</label>
+    <input type="text" id="drug-name" placeholder="Enter Drug Name">
+
+    <label for="drug-amount">Drug Amount:</label>
+    <input type="text" id="drug-amount" placeholder="Enter Drug Amount">
+
+    <label for="timer">Timer:</label>
+    <input type="number" id="timer" min="0" step="1" placeholder="Enter Time in Seconds">
+
+    <button type="button" onclick="startTimer()">Start Timer</button>
+    <button type="button" onclick="startTimer()">Save</button>
+  </form>
+
+
+  <script>
+    function startTimer() {
+      var timerInput = document.getElementById("timer");
+      var timeInSeconds = parseInt(timerInput.value, 10);
+
+      if (isNaN(timeInSeconds) || timeInSeconds < 0) {
+        alert("Please enter a valid time in seconds.");
+        return;
+      }
+
+      var timerInterval = setInterval(function() {
+
+        if (timeInSeconds <= 0) {
+          clearInterval(timerInterval);
+          alert("Time's up!");
+        } else {
+          timeInSeconds--;
+        }
+      }, 1000);
+    }
+  </script>
+
+
+</body>
+</html>
+
+
+

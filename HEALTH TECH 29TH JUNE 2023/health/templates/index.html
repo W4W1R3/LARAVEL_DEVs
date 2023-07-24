@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>accessible health connect</title>
+    <link rel="stylesheet"href="/static/index.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+      <style>
+        .main {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+                              url('/static/index.png');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">ACH</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/appointment" id="appointments-link"> APPOINTMENTS</a></li>
+                    <li><a href="/reminder">REMINDERS</a></li>
+                    <li><a href="/payment">PAYMENT</a></li>
+                    <li><a href="/about">ABOUT</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h1>ACCESSIBLE <span>HEALTH</span>CONNECT</h1>
+
+
+            <div class="button">
+                <h2>choose disability</h2>
+                <button class="btn" id="visual-disability-button">VISUAL DISABILITY </button>
+                <button class="btn"><a href="#">HEARING DISABILITY</a> </button>
+                <button class="btn"><a href="#">COGNITIVE DISABILITY</a> </button>
+                <button class="btn"><a href="#">MOBILITY DISABILITY</a> </button>
+            </div>
+            <script>
+    $(document).ready(function() {
+        var isVisualDisabilityClicked = false;
+
+        // JavaScript code to handle button click event
+        $('#visual-disability-button').click(function() {
+            isVisualDisabilityClicked = true;
+            // Use the Web Speech API for speech synthesis
+            if ('speechSynthesis' in window) {
+                var speech = new SpeechSynthesisUtterance();
+                speech.text = 'visual disability button....enabled';
+                speechSynthesis.cancel(); // Stop any ongoing speech synthesis
+                speechSynthesis.speak(speech);
+
+                // Set voice to a female voice if available
+                var voices = speechSynthesis.getVoices();
+                var femaleVoice = voices.find(function(voice) {
+                    return voice.name === 'Google UK English Female';
+                });
+                if (femaleVoice) {
+                    speech.voice = femaleVoice;
+                }
+            } else {
+                alert('Speech synthesis is not supported in your browser.');
+            }
+        });
+
+        // JavaScript code to handle menu hover event
+        $('.menu li a').hover(function() {
+            if (isVisualDisabilityClicked) {
+                var menuText = $(this).text();
+                if ('speechSynthesis' in window) {
+                    var speech = new SpeechSynthesisUtterance();
+                    speech.text = menuText;
+                    speechSynthesis.cancel(); // Stop any ongoing speech synthesis
+                    speechSynthesis.speak(speech);
+                } else {
+                    alert('Speech synthesis is not supported in your browser.');
+                }
+            }
+        });
+    });
+</script>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
+
