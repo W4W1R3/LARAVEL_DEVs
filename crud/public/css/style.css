@@ -1,0 +1,79 @@
+/* public/css/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container, .post {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border: 2px solid #28a745;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #28a745;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.auth-message {
+    text-align: center;
+    margin-top: 40px;
+}
+.border-box {
+    border: 2px solid #218838;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #eaffea;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    max-width: 800px;
+}
+
+.border-box:hover {
+    transform: scale(1.02);
+}
+
+.border-box h3 {
+    color: #218838;
+    margin-bottom: 10px;
+}
+
+.border-box p {
+    color: #333;
+    line-height: 1.5;
+}
+
