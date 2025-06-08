@@ -1,48 +1,5 @@
 # Dependencies
 /node_modules
 /vendor
-
-# Environment files
-.env
-.env.local
-.env.production
-
-# Laravel specific
-/storage/logs/*
-/storage/framework/cache/*
-/storage/framework/sessions/*
-/storage/framework/views/*
-/bootstrap/cache/*
-
-# Development files
-.git
-.gitignore
-README.md
-/tests
-phpunit.xml
-.phpunit.result.cache
-
-# IDE files
-.vscode
-.idea
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
 /vendor
-/node_modules
-/storage/*.key
-/storage/logs
-.env
-.env.backup
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
-/storage/framework/sessions/*
-/storage/framework/views/*
-/storage/framework/cache/*
+/public/build
