@@ -31,3 +31,18 @@ phpunit.xml
 # OS generated files
 .DS_Store
 Thumbs.db
+
+/vendor
+/node_modules
+/storage/*.key
+/storage/logs
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/cache/*
